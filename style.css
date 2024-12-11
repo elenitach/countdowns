@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+}
+
+input {
+  outline: none;
+  width: 200px;
+}
+
+button {
+  padding: 0 5px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+ul {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+}
